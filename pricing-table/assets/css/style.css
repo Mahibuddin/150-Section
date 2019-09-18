@@ -1,0 +1,111 @@
+  
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #888888;
+    line-height: 1.7;
+}
+a:hover { text-decoration: none }
+ul,ol{margin:0;padding:0;list-style-type: none;}
+
+
+
+/*Main CSS Of Class:   */
+/* Chrome older version e animation support koranor jonno: http://pleeease.io/play/ theke filtered kore nebo...   */
+
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 span {
+    color: #25a65b;
+}
+
+.single-pricing-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+.single-pricing-box:hover {box-shadow: 0 0 50px #e9ecef;}
+.single-pricing-box:hover .pricing-icon img{opacity: .7;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";}
+
+.single-pricing-box h3 {
+    text-transform: uppercase;
+}
+
+.pricing-icon {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #25a65b;
+}
+
+.pricing-icon img {
+    max-width: 100px;
+    margin-top: -20px;
+}
+
+.pricing-lists {
+    text-align: left;
+    margin-bottom: 23px;
+}
+
+.pricing-lists h3 {
+    text-transform: none;
+}
+
+.single-pricing-box .pricing-lists h3 {
+    text-transform: none;
+}
+
+.single-pricing-box .pricing-count {
+    text-transform: none;
+}
+
+.border-btn {
+    display: inline-block;
+    color: #25a65b;
+    border: 1px solid #25a65b;
+    padding: 7px 30px;
+    border-radius: 50px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.border-btn:hover{background-color: #25a65b; color: #fff}
+
+.pricing-lists li:before{ 
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f00c"; 
+    color: #25a65b; 
+    padding-right: 15px;
+}
+.pricing-lists li.off:before{content: "\f00d"; color: red;}
+.pricing-lists ul {line-height: 30px; padding: 0 0 0 16px}
+
+.pricing-lists li{-webkit-transition: .2s;transition: .2s;}
+.pricing-lists li:hover{padding-left: 5px;}
+
