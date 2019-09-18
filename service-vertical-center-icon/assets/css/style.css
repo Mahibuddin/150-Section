@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
 a:focus { outline: 0 solid }
 img {
-    width: 100%;
     max-width: 100%;
     height: auto;
 }
@@ -52,7 +51,7 @@ ul,ol{margin:0;padding:0;list-style-type: none;}
     height: 5px;
     background: #ffc30d;
     content: "";
-    margin-left: -30px;
+     margin-left: -30px; /* width er oddhek negetive margin-left dile majhkhane chole ashbe... */
 }
 
 .section-title h2::after {
@@ -61,7 +60,7 @@ ul,ol{margin:0;padding:0;list-style-type: none;}
     left: 50%;
     height: 5px;
     width: 20px;
-    margin-left: -10px;
+    margin-left: -10px; /* width er oddhek negetive margin-left dile majhkhane chole ashbe... */
     content: "";
     background: #f34848;
 }
@@ -73,6 +72,8 @@ ul,ol{margin:0;padding:0;list-style-type: none;}
     min-height: 200px;
     margin-bottom: 30px;
 }
+
+.single-service-icon:hover {color: #888}
 
 .single-service-icon h3 {
     margin: 20px 0;
@@ -92,7 +93,3 @@ ul,ol{margin:0;padding:0;list-style-type: none;}
     vertical-align: middle;
 }
 
-.service-icon-tablecell img {
-    width: 50px;
-    height: 50px;
-}
