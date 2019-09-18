@@ -1,0 +1,88 @@
+  
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #888888;
+    line-height: 1.7;
+}
+a:hover { text-decoration: none }
+ul,ol{margin:0;padding:0;list-style-type: none;}
+
+
+
+/*Main CSS Of Class:   */
+
+
+.section-bg-1 {
+    position: relative;
+    padding: 50px 0;
+}
+
+.section-bg-1::after {
+    background-image: url(../img/workplace.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 56%;
+    width: 47%;
+    content: "";
+}
+
+h2.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+
+h2.section-title span {
+    color: #64abf7;
+}
+
+.style-accordion .accordion .card {
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-radius: 0;
+    /* box-shadow: none; */
+}
+.style-accordion .accordion .card:not(:first-of-type):not(:last-of-type){border-bottom: 1px solid rgba(0,0,0,.125);}
+
+.style-accordion .card-header {border-bottom: 0;background: none;padding: 0;}
+
+.style-accordion .card-header a {
+    padding: 15px;
+    display: block;
+    text-align: left;
+}
+.style-accordion .card-header a svg {
+    float: right;
+    display: none;
+    color: #333;
+}
+
+.style-accordion .card-header a[aria-expanded=true] svg.down {display: block;}
+.style-accordion .card-header a[aria-expanded=false] svg.up {display: block;}
+
+.style-accordion {
+    margin-top: 30px;
+    min-height: 512px;
+}
+
