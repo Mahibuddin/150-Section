@@ -1,0 +1,75 @@
+  
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #888888;
+    line-height: 1.7;
+}
+a:hover { text-decoration: none }
+ul,ol{margin:0;padding:0;list-style-type: none;}
+
+
+
+/*Main CSS Of Class:   */
+/* Chrome older version e animation support koranor jonno: http://pleeease.io/play/ theke filtered kore nebo...   */
+
+
+
+
+.section-padding {
+  padding: 80px 0;
+}
+.section-heading {
+  margin-bottom: 50px;
+}
+.single-team-item img {
+  border: 2px solid #e8e8e8;
+}
+.social-icon {
+  background: #25a65b;
+  text-align: center;
+  padding: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: -30px;
+  position: relative;
+}
+.social-icon a {
+  display: inline-block;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 5px;
+}
+.single-team-item h4 {
+  text-align: center;
+  margin-top: 15px;
+}
+.single-team-item h4 span {
+  display: block;
+  font-size: 70%;
+  font-weight: 300;
+  color: #25a65b;
+  margin-top: 5px;
+}
+

@@ -1,0 +1,92 @@
+  
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #888888;
+    line-height: 1.7;
+}
+a:hover { text-decoration: none }
+ul,ol{margin:0;padding:0;list-style-type: none;}
+
+
+
+/*Main CSS Of Class:   */
+/* Chrome older version e animation support koranor jonno: http://pleeease.io/play/ theke filtered kore nebo...   */
+
+
+.main-menu ul {
+  text-align: right;
+}
+.main-menu ul li {
+  display: inline-block;
+  padding: 17px 50px;
+  padding-right: 30px;
+  padding-right: 0;
+}
+.single-slide-item {
+  background: #263238;
+}
+.single-slide-item h2 {
+  color: #e3aa34;
+  font-size: 45px;
+  font-weight: 100;
+}
+
+
+.slider-img img {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  max-height: 500px;
+  max-width: 400px;
+}
+.slide-info {
+  padding: 130px 0;
+  padding-top: 150px;
+  color: #fff;
+}
+.single-slide-item row {
+  min-height: 500px;
+}
+.single-slide-item .row {
+  /*! min-height: 500px; */
+  position: relative;
+}
+.header-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  padding: 15px 0;
+}
+.logo img {
+  max-height: 60px;
+}
+.bordered-btn {
+  display: inline-block;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.main-menu ul li a {
+  color: #fff;
+}

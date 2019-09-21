@@ -1,0 +1,82 @@
+  
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #888888;
+    line-height: 1.7;
+}
+a:hover { text-decoration: none }
+ul,ol{margin:0;padding:0;list-style-type: none;}
+
+
+
+/*Main CSS Of Class:   */
+/* Chrome older version e animation support koranor jonno: http://pleeease.io/play/ theke filtered kore nebo...   */
+
+
+
+
+.section-padding {
+  padding: 80px 0;
+}
+.section-heading {
+  margin-bottom: 50px;
+}
+
+.single-service-box {
+  border: 1px solid #ebebeb;
+  text-align: center;
+}
+.service-box-bg {
+  background: #ddd;
+  height: 200px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.service-box-bg h2 {
+  background: #dd5044;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  padding: 15px 0;
+  position: absolute;
+  left: 8%;
+  width: 84%;
+  margin: 0;
+  bottom: -25px;
+}
+.service-box-content {
+  padding: 50px 15px 20px;
+}
+.service-box-content p:last-child {
+  margin: 0;
+}
+.service-btn {
+  display: inline-block;
+  color: #dd5044;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.service-btn:hover{color: #dd5044;}
+.service-box-bg-1{background-image: url(../img/brothers.jpg)}
+.service-box-bg-2{background-image: url(../img/mosque.jpg)}
+.service-box-bg-3{background-image: url(../img/workplace.jpg)}
