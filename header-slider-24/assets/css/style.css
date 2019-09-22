@@ -35,12 +35,13 @@ ul,ol{margin:0;padding:0;list-style-type: none;}
 }
 .main-menu ul li {
   display: inline-block;
-  padding: 17px 50px;
+  /* padding: 17px 50px;
   padding-right: 30px;
-  padding-right: 0;
+  padding-right: 0; */
 }
 .single-slide-item {
   background: #263238;
+  color: #fff;
 }
 .single-slide-item h2 {
   color: #e3aa34;
@@ -52,22 +53,15 @@ ul,ol{margin:0;padding:0;list-style-type: none;}
 .slider-img img {
   position: absolute;
   bottom: 0;
-  right: 50px;
-  max-height: 500px;
+  right: 15px;
+  max-height: 530px;
   max-width: 400px;
 }
-.slide-info {
-  padding: 130px 0;
-  padding-top: 150px;
-  color: #fff;
-}
+.slide-info { padding: 170px 0;}
 .single-slide-item row {
   min-height: 500px;
 }
-.single-slide-item .row {
-  /*! min-height: 500px; */
-  position: relative;
-}
+.single-slide-item .row {position: relative;}
 .header-area {
   position: absolute;
   top: 0;
@@ -81,12 +75,39 @@ ul,ol{margin:0;padding:0;list-style-type: none;}
 }
 .bordered-btn {
   display: inline-block;
-  border: 1px solid #fff;
+  border: 1px solid;
   color: #fff;
   padding: 10px 30px;
   border-radius: 5px;
   margin-top: 15px;
+  opacity: .8;
+  transition: .2s;
 }
+.bordered-btn svg { margin-left: 5px; transition: all .3s linear;}
+.bordered-btn:hover{color: #fff; opacity: 1;}
+.bordered-btn:hover svg{margin-left: 15px}
 .main-menu ul li a {
-  color: #fff;
+    color: #fff;
+    display: block;
+    padding: 17px 50px;
+    padding-right: 0;
+}
+
+.homepage-slides .owl-dots button {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+.homepage-slides .owl-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.homepage-slides .owl-dots button.active {
+  background: #e3aa34;
 }
